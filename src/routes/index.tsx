@@ -217,7 +217,7 @@ function Index() {
             
             <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full mb-10 md:w-1/2">
               <img 
-                src={smartHomeAsset.url} 
+                src="/geral.png" 
                 alt="Smart Home Interface ALFRED VISION" 
                 className="w-full h-auto block transition-all duration-500"
                 loading="eager"
