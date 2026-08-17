@@ -234,7 +234,7 @@ function Index() {
           </div>
           
           <div className="mt-20 max-w-3xl mx-auto text-center border-t border-[#00ff66]/10 pt-16">
-            <h3 className="text-2xl font-black mb-6 tracking-tighter uppercase text-white">Mas isso já não existe?</h3>
+            <h3 className="text-2xl font-black mb-6 tracking-widest uppercase text-white">Mas isso já não existe?</h3>
             <div className="space-y-6 text-xl text-gray-400 leading-relaxed font-thin tracking-tight opacity-90" style={{ fontWeight: 100 }}>
               <p>A maioria das IAs disponíveis são plataformas prontas e caras. Você utiliza apenas os recursos prontos que elas oferecem.</p>
               <p className="text-white font-bold uppercase tracking-tight">Com o ALFRED é diferente.</p>
