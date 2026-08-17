@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MatrixRain } from "@/components/MatrixRain";
 import { useState, useEffect } from "react";
+import smartHomeAsset from "@/assets/smart-home-ui.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -211,6 +212,19 @@ function Index() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
               <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
                 <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Dashboard Alfred Vision Home</p>
+              </div>
+            </div>
+            
+            <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full mb-10 md:w-1/2">
+              <img 
+                src={smartHomeAsset.url} 
+                alt="Smart Home Interface ALFRED VISION" 
+                className="w-full h-auto block transition-all duration-500"
+                loading="eager"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
+              <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
+                <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Interface Smart Home</p>
               </div>
             </div>
           </div>
