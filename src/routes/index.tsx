@@ -121,8 +121,8 @@ function Index() {
         <h1 className="text-4xl md:text-5xl font-black mb-4 text-white leading-[0.95] tracking-[-0.04em] uppercase">
           IA que <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">interage</span> como nos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">filmes</span>
         </h1>
-        <p className="text-base md:text-xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed tracking-widest opacity-70" style={{ fontWeight: 100, fontFamily: "'Inter', sans-serif" }}>
-          Capaz de <span className="text-[#00ff66]" style={{ fontWeight: 300 }}>enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66]" style={{ fontWeight: 300 }}>Tudo por voz</span>
+        <p className="text-base md:text-xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed tracking-[0.08em] opacity-80" style={{ fontWeight: 100, fontFamily: "'Inter', sans-serif" }}>
+          Capaz de <span className="text-[#00ff66]" style={{ fontWeight: 200 }}>enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66]" style={{ fontWeight: 200 }}>Tudo por voz</span>
           <br /><br />
           <span style={{ fontWeight: 100 }}>Não é necessário ter conhecimento em programação</span>
         </p>
