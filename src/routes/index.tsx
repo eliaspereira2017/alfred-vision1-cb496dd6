@@ -179,52 +179,56 @@ function Index() {
       {/* Casa Inteligente Section */}
       <section className="py-24 relative z-10 bg-gradient-to-r from-black via-[#00ff66]/5 to-black border-y border-[#00ff66]/10">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="md:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-black mb-4 tracking-tighter uppercase leading-[0.95]">
+          <div className="flex flex-col items-center">
+            <div className="w-full mb-12">
+              <h2 className="text-3xl md:text-4xl font-black mb-4 tracking-tighter uppercase leading-[0.95] text-center md:text-left">
                 O Cérebro da sua <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase">Smart Home</span>
               </h2>
-              <p className="text-sm text-gray-400 mb-6 leading-relaxed max-w-2xl">
+              <p className="text-sm text-gray-400 mb-6 leading-relaxed max-w-2xl text-center md:text-left">
                 Esqueça comandos robóticos. Controle luzes, segurança e eletrodomésticos através de diálogos naturais ou visão computacional.
               </p>
-              <div className="grid grid-cols-1 gap-4 text-gray-300 text-xs mt-8">
-                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
-                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
-                  <span>Integração total com dispositivos IoT</span>
+            </div>
+
+            <div className="flex flex-col md:flex-row gap-6 w-full mb-12">
+              <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full md:w-1/2">
+                <img 
+                  src="/sala.png" 
+                  alt="Automação Residencial ALFRED VISION" 
+                  className="w-full h-auto block transition-all duration-500"
+                  loading="eager"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
+                <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
+                  <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Dashboard Alfred Vision Home</p>
                 </div>
-                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
-                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
-                  <span>Automação por reconhecimento de gestos</span>
-                </div>
-                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
-                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
-                  <span>Rotinas inteligentes personalizadas</span>
+              </div>
+              
+              <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full md:w-1/2">
+                <img 
+                  src="/geral.png" 
+                  alt="Smart Home Interface ALFRED VISION" 
+                  className="w-full h-auto block transition-all duration-500"
+                  loading="eager"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
+                <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
+                  <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Interface Smart Home</p>
                 </div>
               </div>
             </div>
-            <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full mb-10 md:w-1/2">
-              <img 
-                src="/sala.png" 
-                alt="Automação Residencial ALFRED VISION" 
-                className="w-full h-auto block transition-all duration-500"
-                loading="eager"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
-              <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
-                <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Dashboard Alfred Vision Home</p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-300 text-xs w-full">
+              <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                <span>Integração total com dispositivos IoT</span>
               </div>
-            </div>
-            
-            <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full mb-10 md:w-1/2">
-              <img 
-                src="/geral.png" 
-                alt="Smart Home Interface ALFRED VISION" 
-                className="w-full h-auto block transition-all duration-500"
-                loading="eager"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
-              <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
-                <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Interface Smart Home</p>
+              <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                <span>Automação por reconhecimento de gestos</span>
+              </div>
+              <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                <span>Rotinas inteligentes personalizadas</span>
               </div>
             </div>
           </div>
