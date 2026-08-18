@@ -214,6 +214,21 @@ function Index() {
                 <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Interface Smart Home</p>
               </div>
             </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-300 text-xs w-full mt-8">
+              <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                <span>Integração total com dispositivos IoT</span>
+              </div>
+              <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                <span>Automação por reconhecimento de gestos</span>
+              </div>
+              <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                <span>Rotinas inteligentes personalizadas</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
